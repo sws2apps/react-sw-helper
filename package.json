@@ -1,0 +1,49 @@
+{
+  "name": "@sws2apps/react-sw-helper",
+  "description": "A pure react component library to handle service worker",
+  "version": "0.1.0",
+  "type": "module",
+  "keywords": [
+    "react",
+    "reactjs",
+    "component",
+    "react-component",
+    "service-worker",
+    "sw"
+  ],
+  "main": "dist/ServiceWorkerWrapper.js",
+  "files": [
+    "dist/*.js"
+  ],
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "copyfiles -f src/components/ServiceWorkerWrapper/ServiceWorkerWrapper.js dist"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "peerDependencies": {
+    "prop-types": "^15.8.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.4.1"
+  }
+}

@@ -1,0 +1,29 @@
+name: CD
+
+on:
+  workflow_dispatch:
+
+permissions: read-all
+
+jobs:
+  alpha_deploy:
+    name: Publish Alpha Release to npm
+    if: ${{ github.repository == 'sws2apps/react-sw-helper' && github.ref == 'refs/heads/alpha' }}
+    environment:
+      name: Alpha.env
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout for release preparation
+        uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b
+        with:
+          ref: alpha
+          persist-credentials: false
+
+      - name: Run Semantic Release to version and publish the module
+        run: npx semantic-release
+        with:
+          semantic_version: 19.0.2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
