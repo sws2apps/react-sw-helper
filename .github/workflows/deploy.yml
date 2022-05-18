@@ -20,6 +20,14 @@ jobs:
           ref: alpha
           persist-credentials: false
 
+      - name: Use Node.js current version
+        uses: actions/setup-node@56337c425554a6be30cdef71bf441f15be286854
+        with:
+          node-version: current
+
+      - name: Install package dependencies
+        run: npm ci
+
       - name: Run Semantic Release to version and publish the module
         run: npx semantic-release
         env:
