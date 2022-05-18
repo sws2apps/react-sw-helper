@@ -15,6 +15,9 @@
   "files": [
     "dist/*.js"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "homepage": "https://github.com/sws2apps/react-sw-helper#readme",
   "author": "Scheduling Workbox System <sws2apps.notification@gmail.com>",
   "bugs": {
