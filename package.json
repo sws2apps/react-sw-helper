@@ -15,6 +15,17 @@
   "files": [
     "dist/*.js"
   ],
+  "homepage": "https://github.com/sws2apps/react-sw-helper#readme",
+  "author": "Scheduling Workbox System <sws2apps.notification@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/sws2apps/react-sw-helper/issues",
+    "email": "sws2apps.notification@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sws2apps/react-sw-helper.git"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "copyfiles -f src/components/ServiceWorkerWrapper/ServiceWorkerWrapper.js dist"
