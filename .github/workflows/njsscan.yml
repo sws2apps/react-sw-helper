@@ -2,9 +2,9 @@ name: NodeJSScan
 
 on:
   push:
-    branches: [alpha]
+    branches: [beta, alpha]
   pull_request:
-    branches: [alpha]
+    branches: [beta, alpha]
   schedule:
     - cron: '0 12 * * 4'
 
