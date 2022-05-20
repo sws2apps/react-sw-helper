@@ -26,11 +26,11 @@ import ServiceWorkerWrapper from '@sws2apps/react-sw-helper';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-	<React.StrictMode>
-		<ServiceWorkerWrapper>
-			<App />
-		</ServiceWorkerWrapper>
-	</React.StrictMode>
+  <React.StrictMode>
+    <ServiceWorkerWrapper>
+      <App />
+    </ServiceWorkerWrapper>
+  </React.StrictMode>
 );
 ```
 
@@ -44,17 +44,17 @@ import ServiceWorkerWrapper from '@sws2apps/react-sw-helper';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-	<React.StrictMode>
-		<ServiceWorkerWrapper
-			onError={(err) => console.log(`An error occured: ${err}`)}
-			onInstalled={() => console.log('Service worker installed')}
-			onUpdated={() => console.log('Service worker updated')}
-			onStaled={() => console.log('Service worker staled')}
-			publicServiceWorkerDest='/service-worker.js'
-		>
-			{({ update }) => <App updatePwa={update} />}
-		</ServiceWorkerWrapper>
-	</React.StrictMode>
+  <React.StrictMode>
+    <ServiceWorkerWrapper
+       onError={(err) => console.log(`An error occured: ${err}`)}
+       onInstalled={() => console.log('Service worker installed')}
+       onUpdated={() => console.log('Service worker updated')}
+       onStaled={() => console.log('Service worker staled')}
+       publicServiceWorkerDest='/service-worker.js'
+    >
+       {({ update }) => <App updatePwa={update} />}
+    </ServiceWorkerWrapper>
+  </React.StrictMode>
 );
 ```
 
@@ -68,7 +68,7 @@ The destination of where your service worker is located.
 
 Example usage:
 
-`<ServiceWorkerWrapper publicServiceWorkerDest="/service-worker.js">`
+`<ServiceWorkerWrapper publicServiceWorkerDest="/service-worker.js" />`
 
 ### publicUrl
 
@@ -78,7 +78,7 @@ The public URL of your application. Defaults to the root origin.
 
 Example usage:
 
-`<ServiceWorkerWrapper publicUrl="https://example.com/app">`
+`<ServiceWorkerWrapper publicUrl="https://example.com/app" />`
 
 ### onError
 
@@ -88,7 +88,7 @@ Invoked when an error occurs during service worker registration.
 
 Example usage:
 
-`` <ServiceWorkerWrapper onError={err => console.log(`An error occured! Error: ${err}`)}> ``
+`` <ServiceWorkerWrapper onError={err => console.log(`An error occured! Error: ${err}`)} /> ``
 
 ### onInstalled
 
@@ -98,7 +98,7 @@ Invoked when the service worker is installed.
 
 Example usage:
 
-`<ServiceWorkerWrapper onInstalled={() => console.log('Service worker successfully installed.')}>`
+`<ServiceWorkerWrapper onInstalled={() => console.log('Service worker successfully installed.')} />`
 
 ### onUpdated
 
@@ -108,7 +108,7 @@ Invoked when the service worker is updated.
 
 Example usage:
 
-`<ServiceWorkerWrapper onUpdated={() => console.log('Service worker successfully updated.')}>`
+`<ServiceWorkerWrapper onUpdated={() => console.log('Service worker successfully updated.')} />`
 
 ### onStaled
 
@@ -118,7 +118,7 @@ Invoked when the service worker is already installed but waiting to be activated
 
 Example usage:
 
-`<ServiceWorkerWrapper onStaled={() => console.log('Service worker already installed but waiting to be activated.')}>`
+`<ServiceWorkerWrapper onStaled={() => console.log('Service worker already installed but waiting to be activated.')} />`
 
 ### `children` Render Props
 
