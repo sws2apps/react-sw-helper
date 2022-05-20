@@ -17,7 +17,7 @@ const ServiceWorkerWrapper = ({
 	onError,
 	onInstalled,
 	onUpdated,
-	onStaled,
+	onWaiting,
 	publicServiceWorkerDest,
 	publicUrl,
 }) => {
@@ -34,7 +34,7 @@ const ServiceWorkerWrapper = ({
 			// check if there are any awaiting sw
 			const waitingWorker = registration.waiting;
 			if (waitingWorker && waitingWorker.state === 'installed') {
-				onStaled && onStaled();
+				onWaiting && onWaiting();
 			}
 
 			setRegistration(registration);
@@ -69,7 +69,7 @@ const ServiceWorkerWrapper = ({
 			console.error('Error during service worker registration:', err);
 			onError && onError(err);
 		}
-	}, [serviceWorkerUrl, onError, onStaled, onInstalled, onUpdated]);
+	}, [serviceWorkerUrl, onError, onWaiting, onInstalled, onUpdated]);
 
 	const checkValidServiceWorker = useCallback(async () => {
 		try {
@@ -144,7 +144,7 @@ ServiceWorkerWrapper.propTypes = {
 	onError: PropTypes.func,
 	onInstalled: PropTypes.func,
 	onUpdated: PropTypes.func,
-	onStaled: PropTypes.func,
+	onWaiting: PropTypes.func,
 	publicServiceWorkerDest: PropTypes.string.isRequired,
 	publicUrl: PropTypes.string,
 };
@@ -153,7 +153,7 @@ ServiceWorkerWrapper.defaultProps = {
 	onError: null,
 	onInstalled: null,
 	onUpdated: null,
-	onStaled: null,
+	onWaiting: null,
 	publicUrl: '',
 };
 

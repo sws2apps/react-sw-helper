@@ -26,11 +26,11 @@ import ServiceWorkerWrapper from '@sws2apps/react-sw-helper';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <ServiceWorkerWrapper>
-      <App />
-    </ServiceWorkerWrapper>
-  </React.StrictMode>
+	<React.StrictMode>
+		<ServiceWorkerWrapper>
+			<App />
+		</ServiceWorkerWrapper>
+	</React.StrictMode>
 );
 ```
 
@@ -44,17 +44,17 @@ import ServiceWorkerWrapper from '@sws2apps/react-sw-helper';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <ServiceWorkerWrapper
-       onError={(err) => console.log(`An error occured: ${err}`)}
-       onInstalled={() => console.log('Service worker installed')}
-       onUpdated={() => console.log('Service worker updated')}
-       onStaled={() => console.log('Service worker staled')}
-       publicServiceWorkerDest='/service-worker.js'
-    >
-       {({ update }) => <App updatePwa={update} />}
-    </ServiceWorkerWrapper>
-  </React.StrictMode>
+	<React.StrictMode>
+		<ServiceWorkerWrapper
+			onError={(err) => console.log(`An error occured: ${err}`)}
+			onInstalled={() => console.log('Service worker installed')}
+			onUpdated={() => console.log('Service worker updated')}
+			onWaiting={() => console.log('Service worker waiting')}
+			publicServiceWorkerDest='/service-worker.js'
+		>
+			{({ update }) => <App updatePwa={update} />}
+		</ServiceWorkerWrapper>
+	</React.StrictMode>
 );
 ```
 
@@ -110,7 +110,7 @@ Example usage:
 
 `<ServiceWorkerWrapper onUpdated={() => console.log('Service worker successfully updated.')} />`
 
-### onStaled
+### onWaiting
 
 > `function()` | Optional
 
@@ -118,7 +118,7 @@ Invoked when the service worker is already installed but waiting to be activated
 
 Example usage:
 
-`<ServiceWorkerWrapper onStaled={() => console.log('Service worker already installed but waiting to be activated.')} />`
+`<ServiceWorkerWrapper onWaiting={() => console.log('Service worker already installed but waiting to be activated.')} />`
 
 ### `children` Render Props
 
