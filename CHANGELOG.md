@@ -1,3 +1,10 @@
+# 1.0.0 (2022-05-22)
+
+
+### Features
+
+* **component:** initial release ([f4454fd](https://github.com/sws2apps/react-sw-helper/commit/f4454fd503663d317c2cf851443442d6f3efabeb))
+
 # 1.0.0-beta.1 (2022-05-20)
 
 
