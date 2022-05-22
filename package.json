@@ -1,0 +1,66 @@
+{
+  "name": "@sws2apps/react-sw-helper",
+  "description": "A pure react component library to handle service worker",
+  "version": "1.0.0-beta.1",
+  "type": "module",
+  "keywords": [
+    "react",
+    "reactjs",
+    "component",
+    "react-component",
+    "service-worker",
+    "sw"
+  ],
+  "main": "dist/ServiceWorkerWrapper.js",
+  "files": [
+    "dist/*.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/sws2apps/react-sw-helper#readme",
+  "author": "Scheduling Workbox System <sws2apps.notification@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/sws2apps/react-sw-helper/issues",
+    "email": "sws2apps.notification@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sws2apps/react-sw-helper.git"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "copyfiles -f src/components/ServiceWorkerWrapper/ServiceWorkerWrapper.js dist"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "peerDependencies": {
+    "prop-types": "^15.8.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "copyfiles": "^2.4.1"
+  }
+}
