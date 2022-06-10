@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/sws2apps/react-sw-helper/compare/v1.0.0...v1.1.0) (2022-06-10)
+
+
+### Features
+
+* **deps:** bump npm from 8.10.0 to 8.12.0 ([85932a8](https://github.com/sws2apps/react-sw-helper/commit/85932a81244d2c597874f466c8960c1b01d3546d))
+* **deps:** bump semantic-release from 19.0.2 to 19.0.3 ([e5dee27](https://github.com/sws2apps/react-sw-helper/commit/e5dee2702a31e9bb4c2f8641cbc5b5b743425931))
+
 # 1.0.0 (2022-05-22)
 
 
