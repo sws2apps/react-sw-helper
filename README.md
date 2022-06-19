@@ -27,7 +27,7 @@ import ServiceWorkerWrapper from '@sws2apps/react-sw-helper';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-     <ServiceWorkerWrapper>
+     <ServiceWorkerWrapper publicServiceWorkerDest='/service-worker.js'>
         <App />
      </ServiceWorkerWrapper>
   </React.StrictMode>
