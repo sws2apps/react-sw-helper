@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/sws2apps/react-sw-helper/compare/v1.1.0...v1.2.0) (2022-06-28)
+
+
+### Features
+
+* **component:** update peersDependencies and add peerDependenciesMeta ([c1ed77b](https://github.com/sws2apps/react-sw-helper/commit/c1ed77b9ec5eb2c3b8125e40fd6a28ebd07e6293))
+
 # [1.1.0](https://github.com/sws2apps/react-sw-helper/compare/v1.0.0...v1.1.0) (2022-06-10)
 
 
