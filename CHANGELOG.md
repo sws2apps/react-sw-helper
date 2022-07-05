@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/sws2apps/react-sw-helper/compare/v1.2.0...v1.2.1) (2022-07-05)
+
+
+### Bug Fixes
+
+* **component:** minor update to package dependencies ([d35ac89](https://github.com/sws2apps/react-sw-helper/commit/d35ac893ac3208a7346252882bc3a9d1a2a63bff))
+
 # [1.2.0](https://github.com/sws2apps/react-sw-helper/compare/v1.1.0...v1.2.0) (2022-06-28)
 
 
