@@ -1,3 +1,10 @@
+# [1.0.0-beta.2](https://github.com/sws2apps/react-sw-helper/compare/v1.0.0-beta.1...v1.0.0-beta.2) (2022-07-06)
+
+
+### Features
+
+* **component:** use vite to build component ([c4fe758](https://github.com/sws2apps/react-sw-helper/commit/c4fe7581fc512e5307f169379373dfbe2bcbaea9))
+
 ## [1.2.1](https://github.com/sws2apps/react-sw-helper/compare/v1.2.0...v1.2.1) (2022-07-05)
 
 
