@@ -1,71 +1,81 @@
 {
-  "name": "@sws2apps/react-sw-helper",
-  "description": "A pure react component library to handle service worker",
-  "version": "1.2.1",
-  "type": "module",
-  "keywords": [
-    "react",
-    "reactjs",
-    "component",
-    "react-component",
-    "service-worker",
-    "sw"
-  ],
-  "main": "dist/ServiceWorkerWrapper.js",
-  "files": [
-    "dist/*.js"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "homepage": "https://github.com/sws2apps/react-sw-helper#readme",
-  "author": "Scheduling Workbox System <sws2apps.notification@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/sws2apps/react-sw-helper/issues",
-    "email": "sws2apps.notification@gmail.com"
-  },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sws2apps/react-sw-helper.git"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "copyfiles -f src/components/ServiceWorkerWrapper/ServiceWorkerWrapper.js dist"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
+    "name": "@sws2apps/react-sw-helper",
+    "description": "A pure react component library to handle service worker",
+    "version": "1.0.0-beta.3",
+    "type": "module",
+    "license": "MIT",
+    "keywords": [
+        "react",
+        "reactjs",
+        "component",
+        "react-component",
+        "service-worker",
+        "sw"
     ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "peerDependencies": {
-    "prop-types": "15.x",
-    "react": "17.x || 18.x",
-    "react-dom": "17.x || 18.x",
-    "react-scripts": "5.x"
-  },
-  "peerDependenciesMeta": {
-    "react-scripts": {
-      "optional": true
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE"
+    ],
+    "main": "./dist/react-sw-helper.umd.js",
+    "module": "./dist/react-sw-helper.es.js",
+    "exports": {
+        ".": {
+            "import": "./dist/react-sw-helper.es.js",
+            "require": "./dist/react-sw-helper.umd.js"
+        }
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "homepage": "https://github.com/sws2apps/react-sw-helper#readme",
+    "author": "Scheduling Workbox System <sws2apps.notification@gmail.com>",
+    "bugs": {
+        "url": "https://github.com/sws2apps/react-sw-helper/issues",
+        "email": "sws2apps.notification@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sws2apps/react-sw-helper.git"
+    },
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "eslintConfig": {
+        "env": {
+            "browser": true,
+            "node": true,
+            "es2020": true
+        },
+        "extends": [
+            "eslint:recommended",
+            "plugin:react/recommended"
+        ],
+        "parserOptions": {
+            "sourceType": "module"
+        }
+    },
+    "devDependencies": {
+        "@semantic-release/changelog": "^6.0.1",
+        "@semantic-release/exec": "^6.0.3",
+        "@semantic-release/git": "^10.0.1",
+        "@vitejs/plugin-react": "^1.3.2",
+        "prop-types": "^15.8.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "vite": "^2.9.13"
     }
-  },
-  "devDependencies": {
-    "@semantic-release/changelog": "^6.0.1",
-    "@semantic-release/exec": "^6.0.3",
-    "@semantic-release/git": "^10.0.1",
-    "copyfiles": "^2.4.1"
-  }
 }
