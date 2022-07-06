@@ -1,3 +1,32 @@
+## [1.2.1](https://github.com/sws2apps/react-sw-helper/compare/v1.2.0...v1.2.1) (2022-07-05)
+
+
+### Bug Fixes
+
+* **component:** minor update to package dependencies ([d35ac89](https://github.com/sws2apps/react-sw-helper/commit/d35ac893ac3208a7346252882bc3a9d1a2a63bff))
+
+# [1.2.0](https://github.com/sws2apps/react-sw-helper/compare/v1.1.0...v1.2.0) (2022-06-28)
+
+
+### Features
+
+* **component:** update peersDependencies and add peerDependenciesMeta ([c1ed77b](https://github.com/sws2apps/react-sw-helper/commit/c1ed77b9ec5eb2c3b8125e40fd6a28ebd07e6293))
+
+# [1.1.0](https://github.com/sws2apps/react-sw-helper/compare/v1.0.0...v1.1.0) (2022-06-10)
+
+
+### Features
+
+* **deps:** bump npm from 8.10.0 to 8.12.0 ([85932a8](https://github.com/sws2apps/react-sw-helper/commit/85932a81244d2c597874f466c8960c1b01d3546d))
+* **deps:** bump semantic-release from 19.0.2 to 19.0.3 ([e5dee27](https://github.com/sws2apps/react-sw-helper/commit/e5dee2702a31e9bb4c2f8641cbc5b5b743425931))
+
+# 1.0.0 (2022-05-22)
+
+
+### Features
+
+* **component:** initial release ([f4454fd](https://github.com/sws2apps/react-sw-helper/commit/f4454fd503663d317c2cf851443442d6f3efabeb))
+
 # 1.0.0-beta.1 (2022-05-20)
 
 

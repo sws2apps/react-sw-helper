@@ -1,9 +1,9 @@
 # React Service Worker Helper
 
-A pure react component for managing service worker life cycle. This project is inspired by the project [@medipass/react-service-worker](https://github.com/medipass/react-service-worker) published by @medipass. Tailored to our needs, and hopefully for you too, here are the differences from the original one:
+A pure react component for managing service worker life cycle. This project is inspired by the project [@medipass/react-service-worker](https://github.com/medipass/react-service-worker) published by @medipass (it is currently inactive for 4 years now). Tailored to our needs, and hopefully for you too, here are the differences from the original one:
 
 - we have updated the code to use the functional component of react.
-- the service worker is register by default if you are building the reactjs app for production.
+- the service worker is registered by default if you are building the reactjs app for production.
 - we have disabled the option to unregister the service worker.
 
 ## Installation
@@ -26,11 +26,11 @@ import ServiceWorkerWrapper from '@sws2apps/react-sw-helper';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-	<React.StrictMode>
-		<ServiceWorkerWrapper>
-			<App />
-		</ServiceWorkerWrapper>
-	</React.StrictMode>
+  <React.StrictMode>
+     <ServiceWorkerWrapper publicServiceWorkerDest='/service-worker.js'>
+        <App />
+     </ServiceWorkerWrapper>
+  </React.StrictMode>
 );
 ```
 
@@ -44,17 +44,17 @@ import ServiceWorkerWrapper from '@sws2apps/react-sw-helper';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-	<React.StrictMode>
-		<ServiceWorkerWrapper
-			onError={(err) => console.log(`An error occured: ${err}`)}
-			onInstalled={() => console.log('Service worker installed')}
-			onUpdated={() => console.log('Service worker updated')}
-			onWaiting={() => console.log('Service worker waiting')}
-			publicServiceWorkerDest='/service-worker.js'
-		>
-			{({ update }) => <App updatePwa={update} />}
-		</ServiceWorkerWrapper>
-	</React.StrictMode>
+  <React.StrictMode>
+    <ServiceWorkerWrapper
+       onError={(err) => console.log(`An error occured: ${err}`)}
+       onInstalled={() => console.log('Service worker installed')}
+       onUpdated={() => console.log('Service worker updated')}
+       onWaiting={() => console.log('Service worker waiting')}
+       publicServiceWorkerDest='/service-worker.js'
+    >
+       {({ update }) => <App updatePwa={update} />}
+    </ServiceWorkerWrapper>
+  </React.StrictMode>
 );
 ```
 

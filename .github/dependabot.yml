@@ -5,14 +5,12 @@ updates:
     directory: '/'
     schedule:
       interval: 'daily'
-    target-branch: 'beta'
 
   # Maintain dependencies for npm
   - package-ecosystem: 'npm'
     directory: '/'
     schedule:
       interval: 'daily'
-    target-branch: 'beta'
     allow:
       - dependency-type: 'production'
       - dependency-type: 'development'
