@@ -13,7 +13,8 @@
     ],
     "files": [
         "dist",
-        "README.md"
+        "README.md",
+        "LICENSE"
     ],
     "main": "./dist/react-sw-helper.umd.js",
     "module": "./dist/react-sw-helper.es.js",
