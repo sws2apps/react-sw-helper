@@ -1,5 +1,13 @@
 # [1.0.0-beta.3](https://github.com/sws2apps/react-sw-helper/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2022-07-06)
 
+
+### Bug Fixes
+
+* **component:** vite build issue with process.env.NODE_ENV ([b316b44](https://github.com/sws2apps/react-sw-helper/commit/b316b449ad37ea785f0afa9f6ecb1b74dfaeddd6))
+* **vite:** update config to use cjs extension ([a76ead9](https://github.com/sws2apps/react-sw-helper/commit/a76ead9d395038923c42dbeccf1df855cc35387a))
+
+# [1.0.0-beta.3](https://github.com/sws2apps/react-sw-helper/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2022-07-06)
+
 ### Bug Fixes
 
 - **component:** vite build issue with process.env.NODE_ENV ([b316b44](https://github.com/sws2apps/react-sw-helper/commit/b316b449ad37ea785f0afa9f6ecb1b74dfaeddd6))
