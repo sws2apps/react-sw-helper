@@ -129,7 +129,7 @@ const ServiceWorkerWrapper = ({
 	}, [registration]);
 
 	useEffect(() => {
-		if (process.env.NODE_ENV === 'production') {
+		if (process.env['NODE_ENV'] === 'production') {
 			register();
 		}
 	}, [register]);
