@@ -2,6 +2,7 @@
     "name": "@sws2apps/react-sw-helper",
     "description": "A pure react component library to handle service worker",
     "version": "1.0.0-beta.2",
+    "type":"module",
     "license": "MIT",
     "keywords": [
         "react",
