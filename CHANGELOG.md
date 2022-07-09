@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/sws2apps/react-sw-helper/compare/v1.3.0...v1.3.1) (2022-07-09)
+
+
+### Bug Fixes
+
+* **component:** remove unnecessary files on dist ([de8200a](https://github.com/sws2apps/react-sw-helper/commit/de8200a43dad7816a5b146caaebf192bf10a91ad))
+
 # [1.3.0](https://github.com/sws2apps/react-sw-helper/compare/v1.2.1...v1.3.0) (2022-07-06)
 
 
