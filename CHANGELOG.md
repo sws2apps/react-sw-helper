@@ -1,3 +1,11 @@
+# [1.4.0](https://github.com/sws2apps/react-sw-helper/compare/v1.3.1...v1.4.0) (2022-07-29)
+
+
+### Features
+
+* **deps:** bump vite from 3.0.3 to 3.0.4 ([d0a7b6b](https://github.com/sws2apps/react-sw-helper/commit/d0a7b6b092e91ebe01a1aafa7c43d271a26f3fac))
+* **github:** change commit message for dependabot ([9ff0b8e](https://github.com/sws2apps/react-sw-helper/commit/9ff0b8ecf807b55f6e521ba7797d195eedde08b2))
+
 ## [1.3.1](https://github.com/sws2apps/react-sw-helper/compare/v1.3.0...v1.3.1) (2022-07-09)
 
 
