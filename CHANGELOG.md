@@ -1,3 +1,11 @@
+# [1.8.0](https://github.com/sws2apps/react-sw-helper/compare/v1.7.0...v1.8.0) (2022-09-15)
+
+
+### Features
+
+* **deps:** bump @vitejs/plugin-react from 2.0.1 to 2.1.0 ([34e4ed3](https://github.com/sws2apps/react-sw-helper/commit/34e4ed31dc09fd648ebb46d7f9a5df6b123d3058))
+* **deps:** bump vite from 3.0.9 to 3.1.0 ([6a0516b](https://github.com/sws2apps/react-sw-helper/commit/6a0516b2964402abbb27612cc48a5c95b9fd566c))
+
 # [1.7.0](https://github.com/sws2apps/react-sw-helper/compare/v1.6.0...v1.7.0) (2022-08-19)
 
 
