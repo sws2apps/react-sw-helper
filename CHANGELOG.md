@@ -1,3 +1,14 @@
+# [1.9.0](https://github.com/sws2apps/react-sw-helper/compare/v1.8.0...v1.9.0) (2022-10-11)
+
+
+### Features
+
+* **deps:** bump vite from 3.1.0 to 3.1.1 ([d026621](https://github.com/sws2apps/react-sw-helper/commit/d0266213abbabe82630eb53c98b6513762ba35aa))
+* **deps:** bump vite from 3.1.1 to 3.1.3 ([a8a54e3](https://github.com/sws2apps/react-sw-helper/commit/a8a54e33cb16930772d8c9cfad3e5c289aeb8bcb))
+* **deps:** bump vite from 3.1.3 to 3.1.4 ([fff31e5](https://github.com/sws2apps/react-sw-helper/commit/fff31e578c387ea67fa042c5b2ff0b90b331cbf5))
+* **deps:** bump vite from 3.1.4 to 3.1.6 ([d5b15bb](https://github.com/sws2apps/react-sw-helper/commit/d5b15bb10057a570638e37cc9f23bd2c03a9c167))
+* **deps:** bump vite from 3.1.6 to 3.1.7 ([9af89a6](https://github.com/sws2apps/react-sw-helper/commit/9af89a6943815e5047feaea999dc60fe68b16be8))
+
 # [1.8.0](https://github.com/sws2apps/react-sw-helper/compare/v1.7.0...v1.8.0) (2022-09-15)
 
 
