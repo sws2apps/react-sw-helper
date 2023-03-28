@@ -1,3 +1,12 @@
+# [1.12.0](https://github.com/sws2apps/react-sw-helper/compare/v1.11.0...v1.12.0) (2023-03-28)
+
+
+### Features
+
+* **deps:** bump @semantic-release/changelog from 6.0.2 to 6.0.3 ([523560e](https://github.com/sws2apps/react-sw-helper/commit/523560e53d39062c71a4406a9e8e07629175c871))
+* **deps:** bump vite from 4.1.4 to 4.2.0 ([7472102](https://github.com/sws2apps/react-sw-helper/commit/747210230e178d11be2c487bc569e059d72c8990))
+* **deps:** bump vite from 4.2.0 to 4.2.1 ([69dd216](https://github.com/sws2apps/react-sw-helper/commit/69dd2168dcaf3b8c888b8532d162a1fd82852b8d))
+
 # [1.11.0](https://github.com/sws2apps/react-sw-helper/compare/v1.10.0...v1.11.0) (2023-03-16)
 
 
