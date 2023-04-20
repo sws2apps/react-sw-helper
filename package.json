@@ -26,7 +26,8 @@
         }
     },
     "publishConfig": {
-        "access": "public"
+        "access": "public",
+        "provenance": true
     },
     "homepage": "https://github.com/sws2apps/react-sw-helper#readme",
     "author": "Scheduling Workbox System <sws2apps.notification@gmail.com>",

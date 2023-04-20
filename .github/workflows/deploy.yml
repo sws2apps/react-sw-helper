@@ -12,6 +12,9 @@ jobs:
     environment:
       name: Alpha.env
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
 
     steps:
       - name: Checkout for release preparation
@@ -40,6 +43,9 @@ jobs:
     environment:
       name: Beta.env
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
 
     steps:
       - name: Checkout for release preparation
@@ -68,6 +74,9 @@ jobs:
     environment:
       name: Prod.env
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
 
     steps:
       - name: Checkout for release preparation
