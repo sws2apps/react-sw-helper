@@ -1,82 +1,59 @@
 {
-    "name": "@sws2apps/react-sw-helper",
-    "description": "A pure react component library to handle service worker",
-    "version": "1.13.0",
-    "type": "module",
-    "license": "MIT",
-    "keywords": [
-        "react",
-        "reactjs",
-        "component",
-        "react-component",
-        "service-worker",
-        "sw"
-    ],
-    "files": [
-        "dist",
-        "README.md",
-        "LICENSE"
-    ],
-    "main": "./dist/react-sw-helper.umd.js",
-    "module": "./dist/react-sw-helper.es.js",
-    "exports": {
-        ".": {
-            "import": "./dist/react-sw-helper.es.js",
-            "require": "./dist/react-sw-helper.umd.js"
-        }
-    },
-    "publishConfig": {
-        "access": "public",
-        "provenance": true
-    },
-    "homepage": "https://github.com/sws2apps/react-sw-helper#readme",
-    "author": "Scheduling Workbox System <sws2apps.notification@gmail.com>",
-    "bugs": {
-        "url": "https://github.com/sws2apps/react-sw-helper/issues",
-        "email": "sws2apps.notification@gmail.com"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/sws2apps/react-sw-helper.git"
-    },
-    "scripts": {
-        "dev": "vite",
-        "build": "vite build"
-    },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
-    },
-    "eslintConfig": {
-        "env": {
-            "browser": true,
-            "node": true,
-            "es2020": true
-        },
-        "extends": [
-            "eslint:recommended",
-            "plugin:react/recommended"
-        ],
-        "parserOptions": {
-            "sourceType": "module"
-        }
-    },
-    "devDependencies": {
-        "@semantic-release/changelog": "^6.0.1",
-        "@semantic-release/exec": "^6.0.3",
-        "@semantic-release/git": "^10.0.1",
-        "@vitejs/plugin-react": "^4.0.0",
-        "prop-types": "^15.8.1",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0",
-        "vite": "^4.0.0"
-    }
+	"name": "@sws2apps/react-sw-helper",
+	"description": "A pure react component library to handle service worker",
+	"version": "1.13.0",
+	"type": "module",
+	"license": "MIT",
+	"keywords": ["react", "reactjs", "component", "react-component", "service-worker", "sw"],
+	"files": ["dist", "README.md", "LICENSE"],
+	"main": "./dist/react-sw-helper.umd.js",
+	"module": "./dist/react-sw-helper.es.js",
+	"exports": {
+		".": {
+			"import": "./dist/react-sw-helper.es.js",
+			"require": "./dist/react-sw-helper.umd.js"
+		}
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"homepage": "https://github.com/sws2apps/react-sw-helper#readme",
+	"author": "Scheduling Workbox System <sws2apps.notification@gmail.com>",
+	"bugs": {
+		"url": "https://github.com/sws2apps/react-sw-helper/issues",
+		"email": "sws2apps.notification@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sws2apps/react-sw-helper.git"
+	},
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build"
+	},
+	"browserslist": {
+		"production": [">0.2%", "not dead", "not op_mini all"],
+		"development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+	},
+	"eslintConfig": {
+		"env": {
+			"browser": true,
+			"node": true,
+			"es2020": true
+		},
+		"extends": ["eslint:recommended", "plugin:react/recommended"],
+		"parserOptions": {
+			"sourceType": "module"
+		}
+	},
+	"devDependencies": {
+		"@semantic-release/changelog": "^6.0.1",
+		"@semantic-release/exec": "^6.0.3",
+		"@semantic-release/git": "^10.0.1",
+		"@vitejs/plugin-react": "^4.0.0",
+		"prop-types": "^15.8.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"vite": "^4.0.0"
+	}
 }
