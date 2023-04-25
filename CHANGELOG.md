@@ -1,3 +1,11 @@
+# [1.14.0](https://github.com/sws2apps/react-sw-helper/compare/v1.13.0...v1.14.0) (2023-04-25)
+
+
+### Features
+
+* **deps:** bump vite from 4.3.0 to 4.3.1 ([c532b82](https://github.com/sws2apps/react-sw-helper/commit/c532b827e2cc23b3faa73079b969e9964383871b))
+* **deps:** bump yaml and semantic-release ([d6f370a](https://github.com/sws2apps/react-sw-helper/commit/d6f370a415ebb2f16a07ea839980a037a4622da9))
+
 # [1.13.0](https://github.com/sws2apps/react-sw-helper/compare/v1.12.0...v1.13.0) (2023-04-20)
 
 
