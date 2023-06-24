@@ -38,6 +38,10 @@
 		"type": "git",
 		"url": "https://github.com/sws2apps/react-sw-helper.git"
 	},
+	"funding": {
+		"type": "buymeacoffee",
+		"url": "https://www.buymeacoffee.com/sws2apps"
+	},
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build"
