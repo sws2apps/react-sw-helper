@@ -1,3 +1,17 @@
+# [1.17.0](https://github.com/sws2apps/react-sw-helper/compare/v1.16.0...v1.17.0) (2023-09-08)
+
+
+### Features
+
+* **deps:** bump @vitejs/plugin-react from 4.0.2 to 4.0.3 ([93000e9](https://github.com/sws2apps/react-sw-helper/commit/93000e9ca71b04d7a7ded9e9c6619b8490d32128))
+* **deps:** bump @vitejs/plugin-react from 4.0.3 to 4.0.4 ([cf6a021](https://github.com/sws2apps/react-sw-helper/commit/cf6a0215796f4189a3b9ace0f681f589d132760d))
+* **deps:** bump vite from 4.4.1 to 4.4.2 ([16bc0cf](https://github.com/sws2apps/react-sw-helper/commit/16bc0cf8b6e563de2577918235a2254c1be7dd09))
+* **deps:** bump vite from 4.4.2 to 4.4.3 ([3a64433](https://github.com/sws2apps/react-sw-helper/commit/3a644335f90a343998384ef63684ed8ca1977318))
+* **deps:** bump vite from 4.4.3 to 4.4.4 ([07e983d](https://github.com/sws2apps/react-sw-helper/commit/07e983d7779456fc341bb7424f76943285667821))
+* **deps:** bump vite from 4.4.4 to 4.4.6 ([793ec80](https://github.com/sws2apps/react-sw-helper/commit/793ec80d708956ce944d2bb11a3691f086e8ba39))
+* **deps:** bump vite from 4.4.6 to 4.4.7 ([273a1dc](https://github.com/sws2apps/react-sw-helper/commit/273a1dc67a4caa4a0ed4a7a6893e63441500ee40))
+* **deps:** bump vite from 4.4.7 to 4.4.9 ([d9d56c8](https://github.com/sws2apps/react-sw-helper/commit/d9d56c857f64a2ca0f19c2af90a2a09a1a050ad1))
+
 # [1.16.0](https://github.com/sws2apps/react-sw-helper/compare/v1.15.0...v1.16.0) (2023-07-07)
 
 
