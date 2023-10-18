@@ -1,3 +1,12 @@
+# [1.19.0](https://github.com/sws2apps/react-sw-helper/compare/v1.18.0...v1.19.0) (2023-10-18)
+
+
+### Features
+
+* **deps:** bump @babel/traverse from 7.23.0 to 7.23.2 ([6563e94](https://github.com/sws2apps/react-sw-helper/commit/6563e9428e55c565eb7c36622f13c1c9510319b1))
+* **deps:** bump postcss from 8.4.27 to 8.4.31 ([7fbe94b](https://github.com/sws2apps/react-sw-helper/commit/7fbe94b561e4b39f0ff931d2a4d7ab59ef8660f6))
+* **deps:** bump vite from 4.4.10 to 4.4.11 ([0365408](https://github.com/sws2apps/react-sw-helper/commit/0365408f511e6f5393f044b4b3113efac8b2dfcd))
+
 # [1.18.0](https://github.com/sws2apps/react-sw-helper/compare/v1.17.0...v1.18.0) (2023-10-05)
 
 
