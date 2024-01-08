@@ -1,3 +1,21 @@
+# [1.20.0](https://github.com/sws2apps/react-sw-helper/compare/v1.19.0...v1.20.0) (2024-01-08)
+
+
+### Features
+
+* **deps:** bump @vitejs/plugin-react from 4.1.0 to 4.1.1 ([4e84e61](https://github.com/sws2apps/react-sw-helper/commit/4e84e61282ce3f965f56989e538e2c39db7ed612))
+* **deps:** bump @vitejs/plugin-react from 4.1.1 to 4.2.0 ([a271a90](https://github.com/sws2apps/react-sw-helper/commit/a271a90a31fb9c7b95f661c4ea32afda21aa90a5))
+* **deps:** bump @vitejs/plugin-react from 4.2.0 to 4.2.1 ([025d20a](https://github.com/sws2apps/react-sw-helper/commit/025d20a753ee1e13bf67f2e24d3f358d8735a3c2))
+* **deps:** bump vite from 4.4.11 to 4.5.0 ([28aa994](https://github.com/sws2apps/react-sw-helper/commit/28aa994c16364ee45e0878ae25374ddd9b602bfa))
+* **deps:** bump vite from 4.5.0 to 5.0.0 ([4be4fb7](https://github.com/sws2apps/react-sw-helper/commit/4be4fb719563d2e2e8c329f8c430f0f841d4e8ec))
+* **deps:** bump vite from 5.0.0 to 5.0.3 ([dca0401](https://github.com/sws2apps/react-sw-helper/commit/dca04011f8e5ed19929f46f590ab8402407039c3))
+* **deps:** bump vite from 5.0.10 to 5.0.11 ([0a53a80](https://github.com/sws2apps/react-sw-helper/commit/0a53a8021560e003dd8dfd605b1e1e9f8ed94986))
+* **deps:** bump vite from 5.0.3 to 5.0.4 ([be581af](https://github.com/sws2apps/react-sw-helper/commit/be581af921697512a855661009d5eb78f88445d1))
+* **deps:** bump vite from 5.0.4 to 5.0.6 ([308e108](https://github.com/sws2apps/react-sw-helper/commit/308e1080481c94f9ed8a04badd4051b9131bb2a0))
+* **deps:** bump vite from 5.0.6 to 5.0.7 ([ff92bc3](https://github.com/sws2apps/react-sw-helper/commit/ff92bc323de87b9de5f8aa328f107ddf6c0336d6))
+* **deps:** bump vite from 5.0.7 to 5.0.8 ([a807df9](https://github.com/sws2apps/react-sw-helper/commit/a807df96cf90dd4379e737a2d8395ef32bd128c0))
+* **deps:** bump vite from 5.0.8 to 5.0.10 ([cffb756](https://github.com/sws2apps/react-sw-helper/commit/cffb7565bfea4ca2cb9a31496e6e1e9c55e7ecca))
+
 # [1.19.0](https://github.com/sws2apps/react-sw-helper/compare/v1.18.0...v1.19.0) (2023-10-18)
 
 
