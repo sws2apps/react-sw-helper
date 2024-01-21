@@ -1,3 +1,10 @@
+# [1.21.0](https://github.com/sws2apps/react-sw-helper/compare/v1.20.0...v1.21.0) (2024-01-21)
+
+
+### Features
+
+* **deps:** bump vite from 5.0.11 to 5.0.12 ([d1bb551](https://github.com/sws2apps/react-sw-helper/commit/d1bb55187e3fb16447de81ac0cdbf03250d3b782))
+
 # [1.20.0](https://github.com/sws2apps/react-sw-helper/compare/v1.19.0...v1.20.0) (2024-01-08)
 
 
