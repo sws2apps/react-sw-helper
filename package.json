@@ -40,7 +40,7 @@
 	},
 	"funding": {
 		"type": "buymeacoffee",
-		"url": "https://www.buymeacoffee.com/sws2apps/e/146342"
+		"url": "https://www.buymeacoffee.com/sws2apps"
 	},
 	"scripts": {
 		"dev": "vite",
@@ -76,10 +76,16 @@
 		"@semantic-release/changelog": "^6.0.1",
 		"@semantic-release/exec": "^6.0.3",
 		"@semantic-release/git": "^10.0.1",
+		"@types/node": "^20.12.7",
+		"@types/react": "^18.3.0",
+		"@typescript-eslint/eslint-plugin": "^7.7.1",
+		"@typescript-eslint/parser": "^7.7.1",
 		"@vitejs/plugin-react": "^4.0.0",
-		"prop-types": "^15.8.1",
+		"eslint-plugin-import": "^2.29.1",
+		"eslint-plugin-react": "^7.34.1",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
+		"typescript": "^5.4.5",
 		"vite": "^5.0.0"
 	}
 }
