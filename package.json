@@ -19,6 +19,7 @@
 	],
 	"main": "./dist/react-sw-helper.umd.js",
 	"module": "./dist/react-sw-helper.es.js",
+	"types": "./dist/index.d.ts",
 	"exports": {
 		".": {
 			"import": "./dist/react-sw-helper.es.js",
@@ -44,7 +45,7 @@
 	},
 	"scripts": {
 		"dev": "vite",
-		"build": "vite build"
+		"build": "vite build && tsc"
 	},
 	"browserslist": {
 		"production": [
@@ -57,20 +58,6 @@
 			"last 1 firefox version",
 			"last 1 safari version"
 		]
-	},
-	"eslintConfig": {
-		"env": {
-			"browser": true,
-			"node": true,
-			"es2020": true
-		},
-		"extends": [
-			"eslint:recommended",
-			"plugin:react/recommended"
-		],
-		"parserOptions": {
-			"sourceType": "module"
-		}
 	},
 	"devDependencies": {
 		"@semantic-release/changelog": "^6.0.1",
