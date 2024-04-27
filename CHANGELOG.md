@@ -1,3 +1,19 @@
+# [1.23.0](https://github.com/sws2apps/react-sw-helper/compare/v1.22.0...v1.23.0) (2024-04-27)
+
+
+### Features
+
+* **deps:** bump react from 18.3.0 to 18.3.1 ([8ee4317](https://github.com/sws2apps/react-sw-helper/commit/8ee4317668ffabf7dfef62bd9d933dab44ffa4bf))
+* **deps:** bump react-dom from 18.2.0 to 18.3.0 ([d3ecf43](https://github.com/sws2apps/react-sw-helper/commit/d3ecf43756de0ae8e7f75fb4a7f6fa4f4f8fd23a))
+* **deps:** bump vite from 5.2.2 to 5.2.3 ([ae587cc](https://github.com/sws2apps/react-sw-helper/commit/ae587cc853d9d5c0e47b8b2ccb9e3f1089cd2119))
+* **deps:** bump vite from 5.2.3 to 5.2.6 ([9b07423](https://github.com/sws2apps/react-sw-helper/commit/9b074231ea02ba4947e942ccdaf7777681689688))
+* **deps:** bump vite from 5.2.6 to 5.2.7 ([9d3dbb3](https://github.com/sws2apps/react-sw-helper/commit/9d3dbb38628d569319cfcdf064cec401a9298cfd))
+* **deps:** bump vite from 5.2.7 to 5.2.8 ([29f37f2](https://github.com/sws2apps/react-sw-helper/commit/29f37f20443baad91ce6ff1f4b05f5227745694e))
+* **deps:** bump vite from 5.2.8 to 5.2.9 ([b5b0085](https://github.com/sws2apps/react-sw-helper/commit/b5b008523a8d084a560eea363aa8a26e07057859))
+* **deps:** bump vite from 5.2.9 to 5.2.10 ([58b96d0](https://github.com/sws2apps/react-sw-helper/commit/58b96d0ad3f3df6bc4c99e8499c004e6350f4710))
+* **library:** code update and improvement ([d048d08](https://github.com/sws2apps/react-sw-helper/commit/d048d08e89ffe27ed4e9897924793c295f79f4eb))
+* **library:** update project to typescript ([5fd263d](https://github.com/sws2apps/react-sw-helper/commit/5fd263d1fe6b6a7202449c7df75940d43579181a))
+
 # [1.22.0](https://github.com/sws2apps/react-sw-helper/compare/v1.21.0...v1.22.0) (2024-03-22)
 
 
