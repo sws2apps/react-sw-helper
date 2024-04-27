@@ -126,4 +126,4 @@ Example usage:
 
 > `function()`
 
-When invoked, `update` will update the service worker.
+When invoked, `update` will update the service worker. Please note that this function **does not** reload the page.
