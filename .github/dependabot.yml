@@ -5,6 +5,8 @@ updates:
     directory: '/'
     schedule:
       interval: 'daily'
+    commit-message:
+      prefix: 'chore(actions)'
 
   # Maintain dependencies for npm
   - package-ecosystem: 'npm'
@@ -16,3 +18,4 @@ updates:
       - dependency-type: 'development'
     commit-message:
       prefix: 'feat(deps)'
+      prefix-development: 'build(deps)'
