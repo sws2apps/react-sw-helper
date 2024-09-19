@@ -1,3 +1,21 @@
+# [1.25.0](https://github.com/sws2apps/react-sw-helper/compare/v1.24.0...v1.25.0) (2024-09-19)
+
+
+### Bug Fixes
+
+* **module:** Security upgrade vite from 5.4.3 to 5.4.6 ([#383](https://github.com/sws2apps/react-sw-helper/issues/383)) ([1aa6ada](https://github.com/sws2apps/react-sw-helper/commit/1aa6ada33caf8a2f34a0888f5c3dce6fdd206067))
+
+
+### Features
+
+* **deps:** bump vite from 5.3.2 to 5.3.3 ([b7642a6](https://github.com/sws2apps/react-sw-helper/commit/b7642a6c97a5f4d8579fab9275531f5e5a157c7a))
+* **deps:** bump vite from 5.3.3 to 5.3.4 ([4aa42ce](https://github.com/sws2apps/react-sw-helper/commit/4aa42ce5f78d156918d42615ba9778f4e97bce89))
+* **deps:** bump vite from 5.3.4 to 5.3.5 ([1e8ddea](https://github.com/sws2apps/react-sw-helper/commit/1e8ddea663344af34649056120cc375a4e70e22b))
+* **deps:** bump vite from 5.3.5 to 5.4.0 ([79f931f](https://github.com/sws2apps/react-sw-helper/commit/79f931f198ffd3a36a1963b2793b49b1143851ed))
+* **deps:** bump vite from 5.4.0 to 5.4.1 ([eba88a4](https://github.com/sws2apps/react-sw-helper/commit/eba88a429d788ecd5bb44ea1c543c8286e2cdf64))
+* **deps:** bump vite from 5.4.1 to 5.4.2 ([892a674](https://github.com/sws2apps/react-sw-helper/commit/892a674301abf6447b3c95d412940218ead984d9))
+* **deps:** bump vite from 5.4.2 to 5.4.3 ([6ebd293](https://github.com/sws2apps/react-sw-helper/commit/6ebd293df717bc15020eb21e9ddb831eec6e0958))
+
 # [1.24.0](https://github.com/sws2apps/react-sw-helper/compare/v1.23.0...v1.24.0) (2024-07-02)
 
 
