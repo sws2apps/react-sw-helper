@@ -1,3 +1,32 @@
+# [1.26.0](https://github.com/sws2apps/react-sw-helper/compare/v1.25.0...v1.26.0) (2025-02-27)
+
+
+### Bug Fixes
+
+* **module:** check for waiting state on first load ([342aac7](https://github.com/sws2apps/react-sw-helper/commit/342aac7c64f3810f39648a9e356f9c360e737b58))
+
+
+### Features
+
+* **deps:** bump @vitejs/plugin-react from 4.3.1 to 4.3.2 ([63d1f85](https://github.com/sws2apps/react-sw-helper/commit/63d1f85f1e4e9c280e3fafd049123845a342427d))
+* **deps:** bump @vitejs/plugin-react from 4.3.2 to 4.3.3 ([4373548](https://github.com/sws2apps/react-sw-helper/commit/4373548b4e7ae512962216edd049c73f887da6d1))
+* **deps:** bump @vitejs/plugin-react from 4.3.3 to 4.3.4 ([50a30a1](https://github.com/sws2apps/react-sw-helper/commit/50a30a1cdc74bf1d70ecbcd4119acc0832a791a6))
+* **deps:** bump rollup from 4.21.0 to 4.22.4 ([cb64dea](https://github.com/sws2apps/react-sw-helper/commit/cb64dea3c5138162d1b28bae027ade54cbbae0ec))
+* **deps:** bump vite from 5.4.10 to 5.4.11 ([300b0e1](https://github.com/sws2apps/react-sw-helper/commit/300b0e1eb06570e8db3198ee9efeef92535b5654))
+* **deps:** bump vite from 5.4.11 to 6.0.2 ([96bd5e0](https://github.com/sws2apps/react-sw-helper/commit/96bd5e00018e0921ef86023894814a30fa05a684))
+* **deps:** bump vite from 5.4.6 to 5.4.7 ([c1d6cd0](https://github.com/sws2apps/react-sw-helper/commit/c1d6cd040cc5bcf3208fb4d0d899ac3bb027e809))
+* **deps:** bump vite from 5.4.7 to 5.4.8 ([af86141](https://github.com/sws2apps/react-sw-helper/commit/af86141aedab0b45dd85858de4f4f94e90e66ba9))
+* **deps:** bump vite from 5.4.8 to 5.4.9 ([2410dcc](https://github.com/sws2apps/react-sw-helper/commit/2410dcc649dfe90146369222a4944580b305c5a0))
+* **deps:** bump vite from 5.4.9 to 5.4.10 ([78e31ee](https://github.com/sws2apps/react-sw-helper/commit/78e31ee6869accc65849f4400ec9227472fe8958))
+* **deps:** bump vite from 6.0.11 to 6.1.0 ([78877a9](https://github.com/sws2apps/react-sw-helper/commit/78877a942bf291bdae8b23e5d70a2a0b796782f1))
+* **deps:** bump vite from 6.0.2 to 6.0.3 ([390eeba](https://github.com/sws2apps/react-sw-helper/commit/390eeba8a1b46db6ecf5c5e97591b7931f271552))
+* **deps:** bump vite from 6.0.3 to 6.0.5 ([13968b9](https://github.com/sws2apps/react-sw-helper/commit/13968b93e0752b15178b3c2be6a6dfca6808e828))
+* **deps:** bump vite from 6.0.5 to 6.0.7 ([6587788](https://github.com/sws2apps/react-sw-helper/commit/658778886a713b081139029406ecc461751865b1))
+* **deps:** bump vite from 6.0.7 to 6.0.9 ([23ad372](https://github.com/sws2apps/react-sw-helper/commit/23ad372ab0ba39e29ee7b3af75e7f9b0e7ec30cc))
+* **deps:** bump vite from 6.0.9 to 6.0.11 ([8023e86](https://github.com/sws2apps/react-sw-helper/commit/8023e8644b72670ee82041928566f166490a0606))
+* **deps:** bump vite from 6.1.0 to 6.1.1 ([2e6cff0](https://github.com/sws2apps/react-sw-helper/commit/2e6cff04c82e88771bd8fa8241f285462830e694))
+* **deps:** bump vite from 6.1.1 to 6.2.0 ([64c8ef8](https://github.com/sws2apps/react-sw-helper/commit/64c8ef8299ed46e0e3ba9f7ff0fd3edb2f621c07))
+
 # [1.25.0](https://github.com/sws2apps/react-sw-helper/compare/v1.24.0...v1.25.0) (2024-09-19)
 
 
