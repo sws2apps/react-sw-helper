@@ -1,3 +1,13 @@
+# [1.27.0](https://github.com/sws2apps/react-sw-helper/compare/v1.26.0...v1.27.0) (2025-03-25)
+
+
+### Features
+
+* **deps:** bump @babel/helpers from 7.26.0 to 7.26.10 ([2ecd7d8](https://github.com/sws2apps/react-sw-helper/commit/2ecd7d87959972f8652c0337845c37f21d2c5c85))
+* **deps:** bump vite from 6.2.0 to 6.2.1 ([f2e73e5](https://github.com/sws2apps/react-sw-helper/commit/f2e73e549e20874efcc21fbcdea5c1bdacd436bd))
+* **deps:** bump vite from 6.2.1 to 6.2.2 ([2596a56](https://github.com/sws2apps/react-sw-helper/commit/2596a565b6b8016fc7f19058f5e055dc603f9ef8))
+* **deps:** bump vite from 6.2.2 to 6.2.3 ([ecdb404](https://github.com/sws2apps/react-sw-helper/commit/ecdb404aa5b2bc6419ce259c136b513cdf6be693))
+
 # [1.26.0](https://github.com/sws2apps/react-sw-helper/compare/v1.25.0...v1.26.0) (2025-02-27)
 
 
