@@ -63,7 +63,7 @@
     "@vitejs/plugin-react": "^4.0.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "vite": "^6.0.2"
+    "vite": "^6.3.4"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
