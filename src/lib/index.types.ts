@@ -1,6 +1,7 @@
-import { PropsWithChildren } from 'react';
+import { ReactNode } from 'react';
 
-type ServiceWorkerWrapperProps = {
+export type ServiceWorkerWrapperType = {
+  children?: ((args: { update?: () => void }) => ReactNode) | ReactNode;
   onError?: (error: Error) => void;
   onInstalled?: () => void;
   onUpdated?: () => void;
@@ -8,6 +9,3 @@ type ServiceWorkerWrapperProps = {
   publicServiceWorkerDest: string;
   publicUrl?: string;
 };
-
-export type ServiceWorkerWrapperType =
-  PropsWithChildren<ServiceWorkerWrapperProps>;
