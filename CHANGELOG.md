@@ -3,6 +3,29 @@
 
 ### Bug Fixes
 
+* **types:** make children prop optional ([e798f28](https://github.com/sws2apps/react-sw-helper/commit/e798f28ce1632af359797440395b935df24765ce))
+* **types:** use propswithchildren props from react ([cb3439b](https://github.com/sws2apps/react-sw-helper/commit/cb3439b2f1e56efe3bec0e58eba5b99c9c195bae))
+
+
+### Features
+
+* **deps:** bump @vitejs/plugin-react from 4.3.4 to 4.4.0 ([474ea8d](https://github.com/sws2apps/react-sw-helper/commit/474ea8d4a31ab1e622d4bb3499e45709d1013697))
+* **deps:** bump @vitejs/plugin-react from 4.4.0 to 4.4.1 ([cdea2fe](https://github.com/sws2apps/react-sw-helper/commit/cdea2fe6c1e21a0dbb450720b10f595b84cd79a0))
+* **deps:** bump react and @types/react ([508a2dc](https://github.com/sws2apps/react-sw-helper/commit/508a2dc6f9c7e7079d4e290dea6395d8da078f68))
+* **deps:** bump react-dom from 18.3.1 to 19.1.0 ([a239bf1](https://github.com/sws2apps/react-sw-helper/commit/a239bf152d1b00b95e722720584a0a39615e6388))
+* **deps:** bump vite from 6.2.3 to 6.2.5 ([cd896f1](https://github.com/sws2apps/react-sw-helper/commit/cd896f1982fce7a0d408f9a95678043e83f5671f))
+* **deps:** bump vite from 6.2.5 to 6.2.6 ([26f18f6](https://github.com/sws2apps/react-sw-helper/commit/26f18f618f4637771c74b668fb2a876bf1838184))
+* **deps:** bump vite from 6.2.6 to 6.3.0 ([c20d17d](https://github.com/sws2apps/react-sw-helper/commit/c20d17d08f08c9a8d71dadf0425a37f15751051a))
+* **deps:** bump vite from 6.3.0 to 6.3.1 ([e8bfd44](https://github.com/sws2apps/react-sw-helper/commit/e8bfd4478c09f8a512a3db534e3f7746391053af))
+* **deps:** bump vite from 6.3.1 to 6.3.2 ([32cba50](https://github.com/sws2apps/react-sw-helper/commit/32cba50d98e617919704eccf22d361430b519909))
+* **deps:** bump vite from 6.3.2 to 6.3.3 ([a53c66f](https://github.com/sws2apps/react-sw-helper/commit/a53c66f3fe4017a8f141e6d57492d25f8613b84a))
+* **deps:** bump vite from 6.3.3 to 6.3.4 ([15a720c](https://github.com/sws2apps/react-sw-helper/commit/15a720c383ec8c4aa1adad5da28c315e28732b8a))
+
+# [1.28.0](https://github.com/sws2apps/react-sw-helper/compare/v1.27.0...v1.28.0) (2025-05-05)
+
+
+### Bug Fixes
+
 * **types:** use propswithchildren props from react ([cb3439b](https://github.com/sws2apps/react-sw-helper/commit/cb3439b2f1e56efe3bec0e58eba5b99c9c195bae))
 
 
