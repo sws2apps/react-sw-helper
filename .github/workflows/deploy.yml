@@ -3,7 +3,9 @@ name: CD
 on:
   workflow_dispatch:
 
-permissions: read-all
+permissions:
+  id-token: write
+  contents: read
 
 jobs:
   alpha_deploy:
@@ -12,9 +14,6 @@ jobs:
     environment:
       name: Alpha.env
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      id-token: write
 
     steps:
       - name: Checkout for release preparation
@@ -35,7 +34,6 @@ jobs:
         run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
   beta_deploy:
     name: Publish Beta Release to npm
@@ -43,9 +41,6 @@ jobs:
     environment:
       name: Beta.env
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      id-token: write
 
     steps:
       - name: Checkout for release preparation
@@ -66,7 +61,6 @@ jobs:
         run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
   prod_deploy:
     name: Publish Production Release to npm
@@ -74,9 +68,6 @@ jobs:
     environment:
       name: Prod.env
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      id-token: write
 
     steps:
       - name: Checkout for release preparation
@@ -97,4 +88,3 @@ jobs:
         run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
