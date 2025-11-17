@@ -19,3 +19,9 @@ updates:
     commit-message:
       prefix: 'feat(deps)'
       prefix-development: 'build(deps)'
+    groups:
+      react:
+        patterns:
+          - 'react'
+          - 'react-dom'
+          - '@types/react'
