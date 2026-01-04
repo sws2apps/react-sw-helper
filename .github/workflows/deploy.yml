@@ -3,77 +3,43 @@ name: CD
 on:
   workflow_dispatch:
 
-permissions:
-  id-token: write
-  contents: read
-
 jobs:
-  alpha_deploy:
-    name: Publish Alpha Release to npm
-    if: ${{ github.repository == 'sws2apps/react-sw-helper' && github.ref == 'refs/heads/alpha' }}
-    environment:
-      name: Alpha.env
+  deploy:
+    name: Publish ${{ matrix.channel }} Release to npm
     runs-on: ubuntu-latest
 
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - channel: Alpha
+            branch: alpha
+            environment: Alpha.env
+          - channel: Beta
+            branch: beta
+            environment: Beta.env
+          - channel: Production
+            branch: main
+            environment: Prod.env
+
+    environment:
+      name: ${{ matrix.environment }}
+
+    permissions:
+      contents: write
+      id-token: write
+
     steps:
+      - name: Guard – ensure branch matches matrix
+        if: ${{ github.repository != 'sws2apps/react-sw-helper' || github.ref != format('refs/heads/{0}', matrix.branch) }}
+        run: |
+          echo "Skipping: branch does not match matrix entry"
+          exit 0
+
       - name: Checkout for release preparation
         uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8
         with:
-          ref: alpha
-          persist-credentials: false
-
-      - name: Use Node.js current version
-        uses: actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f
-        with:
-          node-version: current
-
-      - name: Install package dependencies
-        run: npm ci
-
-      - name: Run Semantic Release to version and publish the module
-        run: npx semantic-release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-
-  beta_deploy:
-    name: Publish Beta Release to npm
-    if: ${{ github.repository == 'sws2apps/react-sw-helper' && github.ref == 'refs/heads/beta' }}
-    environment:
-      name: Beta.env
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout for release preparation
-        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8
-        with:
-          ref: beta
-          persist-credentials: false
-
-      - name: Use Node.js current version
-        uses: actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f
-        with:
-          node-version: current
-
-      - name: Install package dependencies
-        run: npm ci
-
-      - name: Run Semantic Release to version and publish the module
-        run: npx semantic-release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-
-  prod_deploy:
-    name: Publish Production Release to npm
-    if: ${{ github.repository == 'sws2apps/react-sw-helper' && github.ref == 'refs/heads/main' }}
-    environment:
-      name: Prod.env
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout for release preparation
-        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8
-        with:
-          ref: main
+          ref: ${{ matrix.branch }}
           persist-credentials: false
 
       - name: Use Node.js current version
