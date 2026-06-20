@@ -1,3 +1,38 @@
+# [1.31.0](https://github.com/sws2apps/react-sw-helper/compare/v1.30.0...v1.31.0) (2026-06-20)
+
+
+### Features
+
+* **deps:** bump @vitejs/plugin-react from 5.0.4 to 5.1.0 ([bffd402](https://github.com/sws2apps/react-sw-helper/commit/bffd4023e3dd8843e6e34290cb29e2aca61c4efb))
+* **deps:** bump @vitejs/plugin-react from 5.1.0 to 5.1.1 ([987ae0f](https://github.com/sws2apps/react-sw-helper/commit/987ae0f37cf3a42516c8a14a13071ee6b53c64a1))
+* **deps:** bump @vitejs/plugin-react from 5.1.1 to 5.1.2 ([a3297a3](https://github.com/sws2apps/react-sw-helper/commit/a3297a3f3aff82a143fcc55438aa159b719d7260))
+* **deps:** bump @vitejs/plugin-react from 5.1.2 to 5.1.3 ([f36f79c](https://github.com/sws2apps/react-sw-helper/commit/f36f79cbd370db00f17e8e64e2ed027582d425cd))
+* **deps:** bump @vitejs/plugin-react from 5.1.3 to 5.1.4 ([d1b6abe](https://github.com/sws2apps/react-sw-helper/commit/d1b6abe0674c22c3248461b948c9be9ca4267337))
+* **deps:** bump @vitejs/plugin-react from 5.1.4 to 5.2.0 ([53e1b16](https://github.com/sws2apps/react-sw-helper/commit/53e1b16f093ef35bbbe1501a787e4a1544909f0a))
+* **deps:** bump @vitejs/plugin-react from 5.2.0 to 6.0.2 ([9d0f9e5](https://github.com/sws2apps/react-sw-helper/commit/9d0f9e51596d625d944ce0249bbaf5108e88cfe2))
+* **deps:** bump esbuild and vite ([cf99802](https://github.com/sws2apps/react-sw-helper/commit/cf998025146bf5da8e8fbfce56006100083a38b8))
+* **deps:** bump lodash from 4.17.21 to 4.17.23 ([bd1e9bc](https://github.com/sws2apps/react-sw-helper/commit/bd1e9bc30293f0826d6db7163a6650e322d69753))
+* **deps:** bump lodash from 4.17.23 to 4.18.1 ([c1af1b5](https://github.com/sws2apps/react-sw-helper/commit/c1af1b5bf6b96a7f006f607809648a8f963298ac))
+* **deps:** bump postcss from 8.5.6 to 8.5.15 ([3a0a63b](https://github.com/sws2apps/react-sw-helper/commit/3a0a63b036d7241768e17ba6811c09b0d53ee049))
+* **deps:** bump rollup from 4.50.0 to 4.59.0 ([d5c98ed](https://github.com/sws2apps/react-sw-helper/commit/d5c98ed286a5ee62e450e96c9263d84e13f00108))
+* **deps:** bump tar and npm ([13d7bed](https://github.com/sws2apps/react-sw-helper/commit/13d7bed8f8617849301b574621fb01f108eb9684))
+* **deps:** bump tar and npm ([ca2eae7](https://github.com/sws2apps/react-sw-helper/commit/ca2eae7d3cf05c86f7f5a4d0a651979ad90f847e))
+* **deps:** bump tar and npm ([fb8c408](https://github.com/sws2apps/react-sw-helper/commit/fb8c40854efdd461295a580659877fbe48601da8))
+* **deps:** bump tar and npm ([00912c5](https://github.com/sws2apps/react-sw-helper/commit/00912c50bf7d6beb8814c98ae7ef70c33bbf0ea5))
+* **deps:** bump tar and npm ([5354ab5](https://github.com/sws2apps/react-sw-helper/commit/5354ab57bfe9368e9acc10f1424fa37272bc5203))
+* **deps:** bump tar and npm ([b110e81](https://github.com/sws2apps/react-sw-helper/commit/b110e816fbc57dbeb3b0e043ceb3ea0ac2963820))
+* **deps:** bump the react group across 1 directory with 3 updates ([6e2592c](https://github.com/sws2apps/react-sw-helper/commit/6e2592cdfd4aa3bf4be68ee4e70ff68141e4845b))
+* **deps:** bump the react group with 2 updates ([5729b1f](https://github.com/sws2apps/react-sw-helper/commit/5729b1fc7af899fd90bd356b93cd068112562d14))
+* **deps:** bump the react group with 3 updates ([a982eda](https://github.com/sws2apps/react-sw-helper/commit/a982edaa041116adb1fcc7c22bd511f6361c5876))
+* **deps:** bump the react group with 3 updates ([e72ca70](https://github.com/sws2apps/react-sw-helper/commit/e72ca7032442d27af3c5ea71d6549390ba28f321))
+* **deps:** bump vite from 7.1.12 to 7.2.0 ([e612af4](https://github.com/sws2apps/react-sw-helper/commit/e612af4be96e699fd67a87f19a03639c1ed4b76e))
+* **deps:** bump vite from 7.2.0 to 7.2.2 ([1b7eb75](https://github.com/sws2apps/react-sw-helper/commit/1b7eb754b54d7bec4eeff1b31a53bff2a5ea240b))
+* **deps:** bump vite from 7.2.2 to 7.2.4 ([2e3a168](https://github.com/sws2apps/react-sw-helper/commit/2e3a1689f68d74e10c00cc1a3bafc58b7c7688b1))
+* **deps:** bump vite from 7.2.4 to 7.2.6 ([adac929](https://github.com/sws2apps/react-sw-helper/commit/adac929c77d9553768699e689124cd042909b207))
+* **deps:** bump vite from 7.2.6 to 7.3.0 ([c5cd8a2](https://github.com/sws2apps/react-sw-helper/commit/c5cd8a2388f4450c2ce001101c81a11350dd1eaf))
+* **deps:** bump vite from 7.3.0 to 7.3.1 ([1b37142](https://github.com/sws2apps/react-sw-helper/commit/1b3714246063edd38f3c2df99b98eb8c558c740d))
+* **deps:** bump vite from 7.3.1 to 7.3.2 ([6fd0de5](https://github.com/sws2apps/react-sw-helper/commit/6fd0de5c424eda1b321146d805d6fa0b46768e7c))
+
 # [1.30.0](https://github.com/sws2apps/react-sw-helper/compare/v1.29.0...v1.30.0) (2025-10-25)
 
 
